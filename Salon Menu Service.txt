@@ -1,0 +1,33 @@
+Salon Menu Service/Price List:
+* HAIRCUT
+* Women's Haircut: $20/$25
+* Children's Haircut: $15
+
+*HAIRSTYLING
+* Thermal Styling (flat iron/curling): $15
+* Blowout Styling: $15
+* Updo: $40
+* Bridal Updo: $60
+
+* TREATMENTS
+* Conditioning Treatment: $15
+
+* MAKEUP APPLICATION
+* Bridesmaid: $30
+* Evening Out: $25
+
+* NAILS
+* Manicure: $15
+* Express Manicure: $10
+* Pedicure: $20
+* Nail Art (additional): $5
+*FACIALS
+* Basic Facial: $20
+*WAXING
+* Brows: $8
+* Underarms: $20
+* Legs/Arms: $40
+*PACKAGES AND DISCOUNTS:
+* Available for Children's/Ladies Parties
+* Student Discounts
+* First Time Referral Discounts
