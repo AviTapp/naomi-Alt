@@ -4,7 +4,7 @@ body {
     color: #fff;
     text-shadow: 0 -1px 1px #000;
 }
-button {
+.button {
     background-color: inherit;
     border: none;
     color: inherit;
@@ -14,10 +14,10 @@ article {
     margin-top: 5%;
 }
 .bkgrndSwirl {
-    position: absolute;
-    top: -42px;
-    left: -35px;
-    width: 50%;
+	position: absolute;
+	left: -35px;
+	width: 50%;
+	bottom: -42px;
 }
 nav {
     width: 100%;
