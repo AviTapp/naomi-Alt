@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Alt Hairstyles</title>
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Avi Tapp, A Tapp Creation, 3/2015">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
 
+
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -29,18 +31,142 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
+	<header class="twelve columns"><img class="u-pull-right bumpDown" src="images/bsd.gif"><hr></header>
+	<nav class="row">
+		<a class="two columns button" href="#home">Home</a>
+		<a class="two columns button" href="#resume">Resume</a>
+		<a class="three columns button" href="#menu">Salon Menu</a>
+		<a class="two columns button" href="#gallery">Gallery</a>
+		<a class="three columns button" href="#info">Information</a></nav>
+
+
+
+	<div id="home">
+		<div class="row"><img class="twelve columns bumpDown" src="images/divider.png"></div>
+		<section class="row bumpDown">
+			<article class="six columns">
+				<header><h2>Your Hair Is Amazing!!!</h2></header>
+				<p>Naomi Alt loves working with people and building a special connection with each and every one of her clients. She looks forward to meeting and working with the people in her community!</p></article>
+			<img class="six columns" src="images/bioPic.jpg" alt="Naomi Alt">
+		</section>
+	</div>
+
+
+
+	<div id="resume">
+		<div class="row"><img class="twelve columns bumpDown" src="images/divider.png"></div>
+		<section class="row bumpDown">
+			<article class="six columns">
+				<header><h2>Resume</h2></header>
+				<p>Naomi Alt's resume is available for download as a PDF <a href="docs/resume.pdf">by clicking here</a>. She is a licensed Cosmetologist from Buffalo, NY now living in Washington Heights, NYC. She completed her Bachelor's in Early Childhood Education at SUNY Buffalo State College, and is now pursuing her Master’s in Literacy at Hunter College.</p></article>
+			<img class="six columns" src="images/resume.png" alt="Naomi Alt Resume">
+		</section>
+	</div>
+
+
+
+	<div id="menu">
+		<div class="row"><img class="twelve columns bumpDown" src="images/divider.png"></div>
+		<header><h2>Salon Menu</h2></header>
+		<section class="row bumpDown">
+			<article class="three columns">
+				<ul>HAIRCUT
+					<li>Women's [$20/$25]</li>
+					<li>Children's [$15]</li></ul>
+				<ul>HAIRSTYLING
+					<li>Thermal Styling [$15]
+						<ul>
+							<li>(flat iron/curling)</li>
+						</ul></li>
+					<li>Blowout Styling [$15]</li>
+					<li>Updo [$40]</li>
+					<li>Bridal Updo [$60]</li></ul>
+				<ul>TREATMENTS
+					<li>Conditioning Treatment [$15]</li></ul>
+				<ul>MAKEUP APPLICATION
+					<li>Bridesmaid [$30]</li>
+					<li>Evening Out [$25]</li></ul>
+			</article>
+			<article class="three columns">
+				<ul>NAILS
+					<li>Manicure [$15]</li>
+					<li>Express Manicure [$10]</li>
+					<li>Pedicure [$20]</li>
+					<li>Nail Art (additional) [$5]</li></ul>
+				<ul>FACIALS
+					<li>Basic Facial [$20]</li></ul>
+				<ul>WAXING
+					<li>Brows [$8]</li>
+					<li>Underarms [$20]</li>
+					<li>Legs/Arms [$40]</li></ul>
+			</article>
+			<article class="offset-by-two columns four columns">
+				<ul>PACKAGES & DISCOUNTS
+					<li>Available For Children's/Ladies Parties</li>
+					<li>Student Discounts</li>
+					<li>First Time Referral Discounts</li></ul>
+			</article>
+		</section>
+	</div>
+
+
+
+	<div class="row" id="gallery">
+		<img class="twelve columns bumpDown" src="images/divider.png">
+		<section class="twelve columns bumpDown">
+			<div id="slider">
+				<img src="images/left.png" class="control_prev">
+				<img src="images/right.png" class="control_next">
+				<ul>
+					<li><img src="images/gallery01.jpg"></li>
+					<li><img src="images/gallery02.jpg"></li>
+					<li><img src="images/gallery03.jpg"></li>
+					<li><img src="images/gallery04.jpg"></li>
+					<li><img src="images/gallery05.jpg"></li>
+					<li><img src="images/gallery06.jpg"></li>
+					<li><img src="images/gallery07.jpg"></li>
+					<li><img src="images/gallery08.jpg"></li>
+					<li><img src="images/gallery09.jpg"></li>
+					<li><img src="images/gallery10.jpg"></li>
+					<li><img src="images/gallery11.jpg"></li>
+				</ul>
+			</div>
+
+			<div class="slider_option">
+				<input type="checkbox" id="checkbox">
+				<label for="checkbox">Autoplay Slider</label>
+			</div>
+		</section>
+	</div>
+
+
+
+	<div id="info">
+		<div class="row"><img class="twelve columns bumpDown" src="images/divider.png"></div>
+		<section class="row bumpDown">
+			<img class="six columns u-pull-right" src="images/infoPic.png">
+			<article class="six columns">
+				<header><h2>Information</h2></header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p></article>
+				<div class="three columns textCenter"><p>Naomi Alt</p></div>
+				<div class="three columns textCenter"><p>(123) 456-7890</p></div>
+				<div class="three columns textCenter"><p>Naomi.Alt@Gmail.com</p></div>
+				<div class="three columns textCenter"><p>By Appointment Only</p></div>
+		</section>
+	</div>
+
+
+	
   </div>
 
 <!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
