@@ -1,3 +1,12 @@
+# Private Files (Files that are excluded for the client's privacy)
+gallery*.jpg
+*resume*
+*infoPic*
+*bioPic*
+
+# Resources (Files that exist as reference material)
+/Resources/*
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
