@@ -5,7 +5,8 @@ jQuery(document).ready(function ($) {
         moveRight();
     }, 3000);
   });
-  
+    var viewPort = $('#gallery').width();
+    $('#slider ul li').width(viewPort);
 	var slideCount = $('#slider ul li').length;
 	var slideWidth = $('#slider ul li').width();
 	var slideHeight = $('#slider ul li').height();

@@ -372,12 +372,13 @@ nav > .button {
   max-width: 100%;
   box-sizing: border-box; }
 .u-pull-right {
-  float: right; }
+  float: right;}
 .u-pull-left {
   float: left; }
 .bumpDown {margin-top: 5px;}
 .textCenter {text-align: center;}
-
+.textFull {text-align: justify;}
+.u-half-width {width: 50%;}
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -386,7 +387,7 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
-
+#info > div > article > img {margin-left: 10px;}
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -461,7 +462,6 @@ there.
 }
 
 img.control_prev, img.control_next {
-  position: absolute;
   top: 0;
   z-index: 999;
   display: block;
