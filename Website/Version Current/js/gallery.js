@@ -1,2 +1,47 @@
-﻿jQuery(document).ready(function(n){function o(){n("#slider ul").animate({left:+t},200,function(){n("#slider ul li:last-child").prependTo("#slider ul");n("#slider ul").css("left","")})}function r(){n("#slider ul").animate({left:-t},200,function(){n("#slider ul li:first-child").appendTo("#slider ul");n("#slider ul").css("left","")})}var i;n("#checkbox").change(function(){setInterval(function(){r()},3e3)});i=n("#gallery").width();n("#slider ul li").width(i);var u=n("#slider ul li").length,t=n("#slider ul li").width(),f=n("#slider ul li").height(),e=u*t;n("#slider").css({width:t,height:f});n("#slider ul").css({width:e,marginLeft:-t});n("#slider ul li:last-child").prependTo("#slider ul");n("img.control_prev").click(function(){o()});n("img.control_next").click(function(){r()})});
-//# sourceMappingURL=gallery.min.js.map
+jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+    var viewPort = $('#gallery').width();
+    $('#slider ul li').width(viewPort);
+	var slideCount = $('#slider ul li').length;
+	var slideWidth = $('#slider ul li').width();
+	var slideHeight = $('#slider ul li').height();
+	var sliderUlWidth = slideCount * slideWidth;
+	
+	$('#slider').css({ width: slideWidth, height: slideHeight });
+	
+	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+	
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('img.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('img.control_next').click(function () {
+        moveRight();
+    });
+
+});    
